@@ -1,0 +1,125 @@
+body {
+  background-color: #add8e6; /* Cor de fundo */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  width: 100%;
+  background-color: #f1f1f1; /* Cinza Claro */
+  padding: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-bottom: 2px solid #cccccc; /* Cinza Médio */
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #4a90e2; /* Azul Escuro */
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navigation a:hover {
+  color: #7ab0d9; /* Azul Médio */
+}
+
+
+.chart-screen,
+.kanban-board-container {
+  width: 80%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* Branco */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chart-screen h2,
+.kanban-board-container h2 {
+  text-align: center;
+  color: #4a90e2; /* Azul Escuro */
+  margin-bottom: 20px;
+  font-size: 1em;
+}
+
+.kanban-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.kanban-header input {
+  padding: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  border: 1px solid #cccccc; /* Cinza Médio */
+  width: 250px;
+  font-size: 14px;
+}
+
+.kanban-header button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #4a90e2; /* Azul Escuro */
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+}
+
+.kanban-header button:hover {
+  background-color: #7ab0d9; /* Azul Médio */
+}
+
+.kanban-board {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.kanban-column {
+  width: 220px;
+  background-color: #f1f1f1; /* Cinza Claro */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.task-card {
+  background-color: #ffffff; /* Branco */
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cccccc; /* Cinza Médio */
+}
+
+.task-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+  font-size: 14px;
+  color: #4a90e2; /* Azul Escuro */
+}
+
+.task-actions button:hover {
+  color: #7ab0d9; /* Azul Médio */
+}
